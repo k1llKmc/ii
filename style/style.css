@@ -1,0 +1,76 @@
+
+/* Стили для шапки */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+/* Стили для основного меню */
+nav {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+nav li {
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition-duration: .3s;
+}
+nav a:hover {
+  background-color: #555;
+}
+/* Стили для основной части страницы */
+main {
+  padding: 20px;
+}
+/* Стили для заголовков */
+h1, h2 {
+  margin-top: 0;
+}
+/* Стили для ссылок */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition-duration: .3s;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* Стили для футера */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+/* Стили для списка проектов */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+li a {
+  display: block;
+  padding: 10px;
+  background-color: #eee;
+  color: #333;
+  transition-duration: .3s;
+}
+li a:hover {
+  background-color: #ddd;
+}
