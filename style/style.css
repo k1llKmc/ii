@@ -74,3 +74,62 @@ li a {
 li a:hover {
   background-color: #ddd;
 }
+header {
+  padding: 10px;
+}
+h1 {
+  font-size: 24px;
+}
+/* Стили для основного меню */
+nav {
+  padding: 10px;
+}
+nav ul {
+  flex-direction: column;
+}
+nav li {
+  margin-bottom: 10px;
+}
+nav a {
+  display: block;
+  padding: 5px;
+}
+/* Стили для основной части страницы */
+main {
+  padding: 10px;
+}
+h2 {
+  font-size: 20px;
+}
+p {
+  font-size: 16px;
+}
+/* Стили для списка проектов */
+ul {
+  padding-left: 20px;
+}
+li a {
+  padding: 5px;
+}
+/* Стили для футера */
+footer {
+  padding: 10px;
+  font-size: 14px;
+}
+nav ul {
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav li {
+  margin: 0;
+}
+nav a {
+  padding: 10px;
+}
+/* Стили для списка проектов */
+ul {
+  padding-left: 40px;
+}
+li a {
+  padding: 10px;
+}
